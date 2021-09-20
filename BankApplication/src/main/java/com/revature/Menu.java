@@ -81,15 +81,17 @@ boolean exit;
 		}
 		}
 	private void employeeLogin() {
-		
+		AdminMenu a = new AdminMenu();
+		a.AdminLogin();
+		a.AdminInput();
+		exit = true; 
 		
 	}
 	private void acctRegister() {
-		// TODO Auto-generated method stub
+	
 		
 	}
 	private void customerLogin() {
-		
 		
 	}
 	}
